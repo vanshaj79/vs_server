@@ -1,10 +1,11 @@
 {
   "name": "evaluation",
   "version": "1.0.0",
-  "description": "a evaluation task",
+  "description": "A Node.js evaluation task",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node -r dotenv/config index.js", 
     "dev": "nodemon -r dotenv/config --experimental-json-modules index.js"
   },
   "author": "vanshaj",
